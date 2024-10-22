@@ -1,4 +1,5 @@
 import ImageGallery from "@/components/image-gallery";
+import Link from "next/link";
 
 export default function ProductPageTemplate({
   images,
@@ -18,17 +19,19 @@ export default function ProductPageTemplate({
             <h2 className="font-rubik-bold text-2xl text-fireOrange lg:text-5xl">
               {title}
             </h2>
-            <h4 className="text-lg lg:text-3xl">
-              Cantitate: {quantity} 
-            </h4>
+            <h4 className="text-lg lg:text-3xl">Cantitate: {quantity}</h4>
             <h3 className="text-xl lg:text-4xl">{price} RON, TVA inclus</h3>
-            <p className="text-lg lg:text-2xl">Transportul nu este inclus in pret</p>
+            <p className="text-lg lg:text-2xl">
+              Transportul nu este inclus in pret
+            </p>
           </div>
           {/* Button Container */}
           <div className="mt-2 space-y-2 lg:mt-20 lg:space-y-3">
-            <button className="w-48 rounded-full bg-fireOrange p-2 text-xl hover:scale-95 hover:bg-fireRed lg:w-full lg:p-4 lg:text-3xl">
-              Comanda
-            </button>
+            <Link href="/contact">
+              <button className="w-48 rounded-full bg-fireOrange p-2 text-xl hover:scale-95 hover:bg-fireRed lg:w-full lg:p-4 lg:text-3xl">
+                Comanda
+              </button>
+            </Link>
             <p className="max-w-md text-lg lg:text-2xl">{description}</p>
           </div>
         </div>
