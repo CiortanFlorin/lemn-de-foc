@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="text-center md:min-h-[450px]">
+    <div className="text-center md:min-h-[550px]">
       <h1 className="mt-12 lg:mt-20 font-rubik-bold text-2xl md:text-3xl">Contact</h1>
 
       {/* Contact Container */}
