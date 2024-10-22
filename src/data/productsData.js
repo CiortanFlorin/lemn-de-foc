@@ -1,9 +1,9 @@
 const data = {
   salcie: {
     images: [
-      "/produse/salcie-1.jPG",
-      "/produse/salcie-2.jPG",
-      "/produse/salcie-3.jPeG",
+      "/produse/salcie-1.JPG",
+      "/produse/salcie-2.JPG",
+      "/produse/salcie-3.jpeg",
     ],
     title: "Pachet lemn de salcie și plop",
     quantity: "0,9 metri cubi",
@@ -13,9 +13,9 @@ const data = {
   },
   fag: {
     images: [
-      "/produse/fag-1.jPeG",
-      "/produse/fag-2.jPeG",
-      "/produse/fag-3.jPG",
+      "/produse/fag-1.jpeg",
+      "/produse/fag-2.jpeg",
+      "/produse/fag-3.JPG",
     ],
     title: "Pachet lemn de fag",
     quantity: "0,9 metri cubi",
@@ -24,7 +24,7 @@ const data = {
       "Lemn de fag dens și dur, ideal pentru o ardere îndelungată. Oferă căldură constantă și eficientă, perfect pentru sobe, șeminee sau cazane în sezonul rece.",
   },
   scandura: {
-    images: ["/produse/scanduri-1.jPG", "/produse/scanduri-2.jpeg"],
+    images: ["/produse/scanduri-1.JPG", "/produse/scanduri-2.jpeg"],
     title: "Pachet scânduri de fag",
     quantity: "Pachet (100x90x200cm)",
     price: "1000",

@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 export default function ProductList() {
   return (
     <section id="ProductList">
@@ -19,7 +19,7 @@ export default function ProductList() {
           <div className="mt-5 flex flex-col space-y-12 lg:flex-row lg:items-end lg:justify-center lg:space-y-0">
             {/* Product 1 */}
             <div className="flex shrink-0 flex-col items-center p-5 lg:max-w-sm xl:max-w-lg">
-              <img src="/salcie.PNG" alt="" className="z-10 -mb-10 w-5/12" />
+              <Image src="/salcie.PNG" alt="" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
                 <h3 className="mt-10 text-2xl">Pachet salcie de foc</h3>
@@ -36,7 +36,7 @@ export default function ProductList() {
             </div>
             {/* Product 2 */}
             <div className="flex shrink flex-col items-center p-5 lg:max-w-sm xl:max-w-lg">
-              <img src="/fag.PNG" alt="" className="z-10 -mb-10 w-5/12" />
+              <Image src="/fag.PNG" alt="" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
                 <h3 className="mt-10 text-2xl">Pachet fag de foc</h3>
@@ -53,7 +53,7 @@ export default function ProductList() {
             </div>
             {/* Product 3 */}
             <div className="flex shrink-0 flex-col items-center p-5 lg:max-w-sm xl:max-w-lg">
-              <img src="/scanduri.PNG" alt="" className="z-10 -mb-10 w-5/12" />
+              <Image src="/scanduri.PNG" alt="" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
                 <h3 className="mt-10 text-2xl">Pachet scânduri de fag</h3>
