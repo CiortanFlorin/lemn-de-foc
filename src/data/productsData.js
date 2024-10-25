@@ -1,9 +1,9 @@
 const data = {
   salcie: {
     images: [
-      "/produse/salcie-1.JPG",
-      "/produse/salcie-2.JPG",
-      "/produse/salcie-3.jpeg",
+      "/produse/salcie-1.webp",
+      "/produse/salcie-2.webp",
+      "/produse/salcie-3.webp",
     ],
     title: "Pachet lemn de salcie și plop",
     quantity: "0,9 metri cubi",
@@ -17,9 +17,9 @@ const data = {
   },
   fag: {
     images: [
-      "/produse/fag-1.jpeg",
-      "/produse/fag-2.jpeg",
-      "/produse/fag-3.JPG",
+      "/produse/fag-1.webp",
+      "/produse/fag-2.webp",
+      "/produse/fag-3.webp",
     ],
     title: "Pachet lemn de fag",
     quantity: "0,9 metri cubi",
@@ -31,7 +31,7 @@ const data = {
       "Achiziționează lemn de fag pentru foc, cunoscut pentru arderea sa de lungă durată. Lemn și Flăcări oferă livrare în Galați, Brăila, și Tulcea.",
   },
   scandura: {
-    images: ["/produse/scanduri-1.JPG", "/produse/scanduri-2.jpeg"],
+    images: ["/produse/scanduri-1.webp", "/produse/scanduri-2.webp"],
     title: "Pachet scânduri de fag",
     quantity: "Pachet (100x90x200cm)",
     price: "1000",

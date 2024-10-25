@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <Header></Header>
         {children}
         <Footer></Footer>
-        <Analytics mode={'production'} />;
+        <Analytics mode={'production'} />
       </body>
     </html>
   );

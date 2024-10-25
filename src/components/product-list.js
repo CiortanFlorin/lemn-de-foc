@@ -19,7 +19,7 @@ export default function ProductList() {
           <div className="mt-5 flex flex-col space-y-12 lg:flex-row lg:items-end lg:justify-center lg:space-y-0">
             {/* Product 1 */}
             <div className="flex shrink-0 flex-col items-center p-5 lg:max-w-sm xl:max-w-lg">
-              <Image src="/salcie.PNG" alt="Lemn de salcie pentru foc" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
+              <Image src="/salcie.webp" alt="Lemn de salcie pentru foc" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
                 <h3 className="mt-10 text-2xl">Pachet salcie de foc</h3>
@@ -36,7 +36,7 @@ export default function ProductList() {
             </div>
             {/* Product 2 */}
             <div className="flex shrink flex-col items-center p-5 lg:max-w-sm xl:max-w-lg">
-              <Image src="/fag.PNG" alt="Lemn de fag pentru foc" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
+              <Image src="/fag.webp" alt="Lemn de fag pentru foc" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
                 <h3 className="mt-10 text-2xl">Pachet fag de foc</h3>
@@ -53,7 +53,7 @@ export default function ProductList() {
             </div>
             {/* Product 3 */}
             <div className="flex shrink-0 flex-col items-center p-5 lg:max-w-sm xl:max-w-lg">
-              <Image src="/scanduri.PNG" alt="Scanduri de fag" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
+              <Image src="/scanduri.webp" alt="Scanduri de fag" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
                 <h3 className="mt-10 text-2xl">Pachet scânduri de fag</h3>

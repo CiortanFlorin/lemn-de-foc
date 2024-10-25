@@ -20,9 +20,9 @@ module.exports = {
         fireYellow: "rgb(238, 223, 122)",
       },
       backgroundImage: {
-        "lemn-logo": "url('/logo.PNG')",
-        "fireplace-landscape": "url('/fireplace-landscape.jpg')",
-        "fireplace-portrait": "url('/fireplace-portrait.jpg')",
+        "lemn-logo": "url('/logo.webp')",
+        "fireplace-landscape": "url('/fireplace-landscape.webp')",
+        "fireplace-portrait": "url('/fireplace-portrait.webp')",
         "wave": "url('/wave.svg')",
       },
     },
