@@ -21,7 +21,7 @@ export const metadata = {
   title: 'Lemn de Foc pentru Livrare în Galați, Brăila, Tulcea | Lemn și Flăcări',
   description: 'Cumpără lemn de foc de calitate, inclusiv plop, salcie, și fag, cu livrare rapidă în Galați, Brăila, și Tulcea. Lemn și Flăcări te ajută cu cea mai bună ofertă.',
   verification: {
-    google: 'googlef2a17efbf9454a8f.html',
+    google: 'saYFspyXTSvSDjC7Gnz_XwAxkJ8o-aZNC_lC5Lqq7_I',
   },
 };
 
