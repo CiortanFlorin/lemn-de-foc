@@ -14,6 +14,7 @@ export default function ImageGallery({ images }) {
             className="rounded-lg"
             width={500}
             height={500}
+            loading="eager"
           />
         </div>
 
@@ -23,8 +24,8 @@ export default function ImageGallery({ images }) {
             <Image
               key={index}
               src={image}
-              width={400}
-              height={400}
+              width={100}
+              height={100}
               alt={`Imaginea ${index + 1}`}
               aria-label={`Vezi poza ${index + 1} ca imagine principala`}
               className="h-20 w-20 cursor-pointer rounded-lg border-2 border-gray-300 object-cover hover:border-fireRed lg:h-40 lg:w-40"
