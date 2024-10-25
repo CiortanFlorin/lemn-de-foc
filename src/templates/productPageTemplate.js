@@ -19,8 +19,8 @@ export default function ProductPageTemplate({
             <h1 className="font-rubik-bold text-2xl text-fireOrange lg:text-5xl">
               {title}
             </h1>
-            <h3 className="text-lg lg:text-3xl">Cantitate: {quantity}</h3>
-            <h4 className="text-xl lg:text-4xl">{price} RON, TVA inclus</h4>
+            <h2 className="text-lg lg:text-3xl">Cantitate: {quantity}</h2>
+            <h3 className="text-xl lg:text-4xl">{price} RON, TVA inclus</h3>
             <p className="text-lg lg:text-2xl">
               Transportul nu este inclus in pret
             </p>

@@ -16,10 +16,10 @@ export default function Hero() {
             <h1 className="2xl:text-7xl 2xl:max-w-xl mt-5 max-w-80 font-rubik-bold text-2xl md:text-5xl">
               Lemn de Foc Premium pentru Confortul Tau
             </h1>
-            <p className="2xl:max-w-xl mt-24 max-w-xl text-lg md:max-w-96">
+            <h2 className="2xl:max-w-xl mt-24 max-w-xl text-lg md:max-w-96">
               Soluția ideală pentru iarnă. Oferim lemn de foc de calitate,
               livrat rapid, gata de utilizare.
-            </p>
+            </h2>
             <h3 className="font-rubik-bold text-lg">
               Prețuri incepand cu <span className="text-2xl">350 RON</span>
             </h3>

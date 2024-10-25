@@ -22,7 +22,7 @@ export default function ProductList() {
               <Image src="/salcie.webp" alt="Lemn de salcie pentru foc" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
-                <h3 className="mt-10 text-2xl">Pachet salcie de foc</h3>
+                <h1 className="mt-10 text-2xl">Pachet salcie de foc</h1>
                 <p className="mt-8 w-3/4 text-lg">
                   Lemn de salcie ușor de aprins, ideal pentru focuri care
                   necesită o flacără constantă și căldură rapidă.
@@ -39,7 +39,7 @@ export default function ProductList() {
               <Image src="/fag.webp" alt="Lemn de fag pentru foc" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
-                <h3 className="mt-10 text-2xl">Pachet fag de foc</h3>
+                <h1 className="mt-10 text-2xl">Pachet fag de foc</h1>
                 <p className="mt-8 w-3/4 text-lg">
                   Lemn de fag de calitate superioară, ideal pentru o ardere
                   îndelungată și căldură intensă.
@@ -56,7 +56,7 @@ export default function ProductList() {
               <Image src="/scanduri.webp" alt="Scanduri de fag" className="z-10 -mb-10 w-5/12" width={200} height={200}/>
               {/* Text Container */}
               <div className="flex flex-col items-center rounded-3xl bg-zinc-900 shadow-xl shadow-black">
-                <h3 className="mt-10 text-2xl">Pachet scânduri de fag</h3>
+                <h1 className="mt-10 text-2xl">Pachet scânduri de fag</h1>
                 <p className="mt-8 w-3/4 text-lg">
                   Lemn dur și dens de fag, asigură o ardere stabilă și căldură
                   constantă pe termen lung.
