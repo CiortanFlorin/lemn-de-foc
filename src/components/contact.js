@@ -23,15 +23,15 @@ export default function Contact() {
           </svg>
           <h3 className="text-xl">Telefon:</h3>
           <p className="text-lg">
-            <a href="tel:+40751518501">
+            <a href="tel:+40751518502">
               {" "}
-              0751518501
+              0751518502
             </a>{" "}
           </p>
           <p className="text-lg">
             <a href="tel:+40751518501" >
               {" "}
-              0751518502
+              0751518501
             </a>{" "}
           </p>
         </div>

@@ -16,11 +16,11 @@ export default function ProductPageTemplate({
         <div className="mx-auto mt-4 flex w-5/6 flex-col items-center rounded-2xl bg-zinc-900 p-5 text-center md:w-4/6 lg:mt-32 lg:w-full lg:items-start lg:justify-start lg:bg-inherit lg:text-left">
           {/* Title Container */}
           <div className="space-y-1 lg:space-y-3">
-            <h2 className="font-rubik-bold text-2xl text-fireOrange lg:text-5xl">
+            <h1 className="font-rubik-bold text-2xl text-fireOrange lg:text-5xl">
               {title}
-            </h2>
-            <h4 className="text-lg lg:text-3xl">Cantitate: {quantity}</h4>
-            <h3 className="text-xl lg:text-4xl">{price} RON, TVA inclus</h3>
+            </h1>
+            <h3 className="text-lg lg:text-3xl">Cantitate: {quantity}</h3>
+            <h4 className="text-xl lg:text-4xl">{price} RON, TVA inclus</h4>
             <p className="text-lg lg:text-2xl">
               Transportul nu este inclus in pret
             </p>

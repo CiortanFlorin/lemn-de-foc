@@ -1,5 +1,10 @@
 import Contact from "@/components/contact";
 
+export const metadata = {
+  title: 'Contact Lemn și Flăcări | Lemn de Foc Livrare Galați, Brăila, Tulcea',
+  description: 'Contactează "Lemn și Flăcări" pentru detalii despre livrarea de lemn de foc, inclusiv lemn de plop, salcie și fag, în Galați, Brăila, și Tulcea.',
+}
+
 export default function Page() {
   return (
     <>
@@ -13,14 +18,14 @@ export default function Page() {
           <p>
             Plasarea unei comenzi se poate face exclusiv prin apel la unul
             dintre numerele de telefon:
-            <a href="tel:+40751518501" className="text-fireRed">
-              {" "}
-              0751518501
-            </a>{" "}
-            sau
             <a href="tel:+40751518502" className="text-fireRed">
               {" "}
               0751518502
+            </a>{" "}
+            sau
+            <a href="tel:+40751518501" className="text-fireRed">
+              {" "}
+              0751518501
             </a>
             .
           </p>

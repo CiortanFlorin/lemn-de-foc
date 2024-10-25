@@ -19,7 +19,7 @@ export default function Questions() {
             <QuestionTab
               question={"Cum comand?"}
               answer={
-                "Comenzile pot fi plasate doar la telefon, la 0751518501 sau 0751518502."
+                "Comenzile pot fi plasate doar la telefon, la 0751518502 sau 0751518501."
               }
             ></QuestionTab>
             <QuestionTab

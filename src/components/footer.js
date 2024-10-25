@@ -39,7 +39,7 @@ export default function Footer() {
             <Image
               className="bg-white hover:bg-fireRed"
               src="/olx.svg"
-              alt=""
+              alt="Visiteaza pagina noastra de OLX"
               height={35}
               width={35}
             />

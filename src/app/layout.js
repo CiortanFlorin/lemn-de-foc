@@ -2,6 +2,7 @@ import Header from "@/components/header";
 import "./globals.css";
 import { Rubik } from "next/font/google";
 import Footer from "@/components/footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -17,8 +18,9 @@ const rubikBold = Rubik({
 });
 
 export const metadata = {
-  title: "Lemn de Foc",
-  description: "Cumparati lemn de foc Galati",
+  title: 'Lemn de Foc pentru Livrare în Galați, Brăila, Tulcea | Lemn și Flăcări',
+  description: 'Cumpără lemn de foc de calitate, inclusiv plop, salcie, și fag, cu livrare rapidă în Galați, Brăila, și Tulcea. Lemn și Flăcări te ajută cu cea mai bună ofertă.',
+
 };
 
 export default function RootLayout({ children }) {
@@ -28,6 +30,7 @@ export default function RootLayout({ children }) {
         <Header></Header>
         {children}
         <Footer></Footer>
+        <Analytics mode={'production'} />;
       </body>
     </html>
   );

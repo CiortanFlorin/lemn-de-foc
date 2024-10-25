@@ -13,3 +13,12 @@ export default function Page({ params }) {
     ></ProductPageTemplate>
   );
 }
+
+export async function generateMetadata({ params }) {
+  const product = data[params.slug];
+
+  return {
+    title: product.metaTitle,
+    description: product.metaDescription,
+  };
+}

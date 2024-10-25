@@ -1,5 +1,5 @@
 export default function QuestionTab({question, answer}){
-    return <div className="group px-3 py-1 outline-none" tabIndex="1">
+    return <div className="group px-3 py-1 outline-none" tabIndex="0">
     {/* <!-- Tab Flex Container --> */}
     <div className="ease group flex cursor-pointer items-center justify-between border-b py-3 transition duration-500">
       {/* <!-- Tab Title --> */}
