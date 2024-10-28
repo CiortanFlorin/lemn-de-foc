@@ -53,7 +53,8 @@ export default function Contact() {
           </svg>
 
           <h1 className="text-xl">E-mail:</h1>
-          <p className="text-lg">viorel.ciortan@yahoo.com</p>
+          <p className="text-lg">
+          viorelciortan2@gmail.com</p>
         </div>
         {/* Contact 3 */}
         <div className="flex min-h-48 w-3/4 max-w-lg lg:max-w-md flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black">
@@ -78,7 +79,7 @@ export default function Contact() {
           </svg>
 
           <h1 className="text-xl">Adresă:</h1>
-          <p className="text-lg">Galați, Calea Smardan 10C</p>
+          <p className="text-lg">Galați, Calea Smardan nr. 2</p>
         </div>
       </div>
     </div>

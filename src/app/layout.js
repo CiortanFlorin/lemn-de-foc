@@ -18,8 +18,8 @@ const rubikBold = Rubik({
 });
 
 export const metadata = {
-  title: 'Lemn de Foc pentru Livrare în Galați, Brăila, Tulcea | Lemn și Flăcări',
-  description: 'Cumpără lemn de foc de calitate, inclusiv plop, salcie, și fag, cu livrare rapidă în Galați, Brăila, și Tulcea. Lemn și Flăcări te ajută cu cea mai bună ofertă.',
+  title: 'Lemn de Foc cu Livrare în Galați, Brăila, Tulcea | Lemn și Flăcări',
+  description: 'Cumpără lemne de foc de calitate, inclusiv plop, salcie, și fag, cu livrare rapidă în Galați, Brăila, și Tulcea. Lemn și Flăcări te ajută cu cea mai bună ofertă.',
   verification: {
     google: 'saYFspyXTSvSDjC7Gnz_XwAxkJ8o-aZNC_lC5Lqq7_I',
   },

@@ -2,7 +2,7 @@ import Contact from "@/components/contact";
 
 export const metadata = {
   title: 'Contact Lemn și Flăcări | Lemn de Foc Livrare Galați, Brăila, Tulcea',
-  description: 'Contactează "Lemn și Flăcări" pentru detalii despre livrarea de lemn de foc, inclusiv lemn de plop, salcie și fag, în Galați, Brăila, și Tulcea.',
+  description: 'Contactează "Lemn și Flăcări" pentru detalii despre livrarea de lemne de foc, inclusiv lemn de plop, salcie și fag, în Galați, Brăila, și Tulcea.',
 }
 
 export default function Page() {
