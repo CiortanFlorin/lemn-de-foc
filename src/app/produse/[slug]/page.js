@@ -9,6 +9,9 @@ export default function Page({ params }) {
       title={product.title}
       quantity={product.quantity}
       price={product.price}
+      form={product.form}
+      advantageTitle={product.advantageTitle}
+      advantageDescription={product.advantageDescription}
       description={product.description}
     ></ProductPageTemplate>
   );
