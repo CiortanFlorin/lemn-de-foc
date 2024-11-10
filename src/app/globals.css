@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hamburger-line {
+    transition: transform 0.25s ease;
+  }
+  
+  .open .hamburger-line:first-child {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .hamburger-line:last-child {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  

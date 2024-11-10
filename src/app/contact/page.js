@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       // Contact Instructions
-      <div className="mt-48 px-4 text-center md:mt-52">
+      <div className="mt-40 px-4 text-center md:mt-48">
         <h1 className="mb-4 font-rubik-bold text-2xl md:text-3xl">
           Cum poți comanda
         </h1>

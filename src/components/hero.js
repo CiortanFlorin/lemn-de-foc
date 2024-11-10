@@ -5,7 +5,7 @@ export default function Hero() {
     // Image Container
     <section
       id="hero"
-      className="top-right mt-40 bg-fireplace-portrait bg-cover bg-center bg-no-repeat md:mt-40 md:bg-fireplace-landscape"
+      className="top-right mt-32 bg-fireplace-portrait bg-cover bg-center bg-no-repeat lg:mt-36 md:bg-fireplace-landscape"
     >
       {/* Gradient Container */}
       <div className="content-center bg-white/10 from-black backdrop-brightness-[0.7] md:min-h-[700px] md:bg-gradient-to-r md:backdrop-filter-none">

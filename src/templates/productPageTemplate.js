@@ -13,7 +13,7 @@ export default function ProductPageTemplate({
 }) {
   return (
     <div className="lg:min-h-screen">
-      <div className="lg:mt-50 mb-10 mt-56 flex flex-col lg:mx-auto lg:max-w-7xl lg:flex-row lg:content-start lg:space-x-10 lg:pl-10">
+      <div className="lg:mt-50 mb-10 mt-48 flex flex-col lg:mx-auto lg:max-w-7xl lg:flex-row lg:content-start lg:space-x-10 lg:pl-10">
         <ImageGallery images={images}></ImageGallery>
         {/* Text Container */}
         <div className="mx-auto mt-4 flex w-5/6 flex-col items-center rounded-2xl bg-zinc-900 p-5 text-center md:w-4/6 lg:mt-32 lg:w-full lg:items-start lg:justify-start lg:bg-inherit lg:text-left">
