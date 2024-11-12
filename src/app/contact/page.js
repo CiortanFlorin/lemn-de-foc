@@ -1,13 +1,15 @@
 import Contact from "@/components/contact";
 
 export const metadata = {
-  title: 'Contact Lemn și Flăcări | Lemn de Foc Livrare Galați, Brăila, Tulcea',
-  description: 'Contactează "Lemn și Flăcări" pentru detalii despre livrarea de lemne de foc, inclusiv lemn de plop, salcie și fag, în Galați, Brăila, și Tulcea.',
-}
+  title: "Contact Lemn și Flăcări | Lemn de Foc Livrare Galați, Brăila, Tulcea",
+  description:
+    'Contactează "Lemn și Flăcări" pentru detalii despre livrarea de lemne de foc, inclusiv lemn de plop, salcie și fag, în Galați, Brăila, și Tulcea.',
+};
 
 export default function Page() {
   return (
     <>
+      <section id="contact-header"></section>
       // Contact Instructions
       <div className="mt-40 px-4 text-center md:mt-48">
         <h1 className="mb-4 font-rubik-bold text-2xl md:text-3xl">

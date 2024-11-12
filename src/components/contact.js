@@ -1,12 +1,13 @@
 export default function Contact() {
   return (
     <div className="text-center md:min-h-[550px]">
-      <h1 className="mt-12 lg:mt-20 font-rubik-bold text-2xl md:text-3xl">Contact</h1>
-
+      <h1 className="mt-12 font-rubik-bold text-2xl md:text-3xl lg:mt-20">
+        Contact
+      </h1>
       {/* Contact Container */}
-      <div className="mt-5 mb-10 flex lg:px-10 flex-col space-y-8 lg:flex-row lg:space-y-0 lg:space-x-8 lg:justify-center items-center mx-auto">
+      <div className="mx-auto mb-10 mt-5 flex flex-col items-center space-y-8 lg:flex-row lg:justify-center lg:space-x-8 lg:space-y-0 lg:px-10">
         {/* Contact 1 */}
-        <div className="flex max-h-48 w-3/4 max-w-lg lg:max-w-md flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black">
+        <div className="flex max-h-48 w-3/4 max-w-lg flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black lg:max-w-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -23,20 +24,14 @@ export default function Contact() {
           </svg>
           <h1 className="text-xl">Telefon:</h1>
           <p className="text-lg">
-            <a href="tel:+40751518502">
-              {" "}
-              0751518502
-            </a>{" "}
+            <a href="tel:+40751518502"> 0751518502</a>{" "}
           </p>
           <p className="text-lg">
-            <a href="tel:+40751518501" >
-              {" "}
-              0751518501
-            </a>{" "}
+            <a href="tel:+40751518501"> 0751518501</a>{" "}
           </p>
         </div>
         {/* Contact 2 */}
-        <div className="flex min-h-48 w-3/4 max-w-lg lg:max-w-md flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black">
+        <div className="flex min-h-48 w-3/4 max-w-lg flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black lg:max-w-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -53,11 +48,10 @@ export default function Contact() {
           </svg>
 
           <h1 className="text-xl">E-mail:</h1>
-          <p className="text-lg">
-          viorelciortan2@gmail.com</p>
+          <p className="text-lg">viorelciortan2@gmail.com</p>
         </div>
         {/* Contact 3 */}
-        <div className="flex min-h-48 w-3/4 max-w-lg lg:max-w-md flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black">
+        <div className="flex min-h-48 w-3/4 max-w-lg flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black lg:max-w-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

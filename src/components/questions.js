@@ -10,7 +10,7 @@ export default function Questions() {
         </h1>
       </div>
       <div>
-        <container className="mx-auto mb-32 px-6">
+        <div className="mx-auto mb-16 px-6">
           <div className="m-8 mx-auto max-w-2xl overflow-hidden lg:max-w-4xl">
             <QuestionTab
               question={"Unde livrăm?"}
@@ -39,7 +39,7 @@ export default function Questions() {
               answer={"Acceptăm plata cu cash, card sau tichete de energie"}
             ></QuestionTab>
           </div>
-        </container>
+        </div>
       </div>
     </section>
   );

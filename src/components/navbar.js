@@ -13,7 +13,6 @@ export default function Navbar() {
   };
 
   const handleDropdownToggle = (dropdownName) => {
-    
     setOpenDropdown(openDropdown === dropdownName ? null : dropdownName);
   };
 
@@ -54,10 +53,12 @@ export default function Navbar() {
       <ul className="hidden items-center justify-center space-x-4 pb-6 text-xl lg:flex lg:pb-0">
         {/* Produse Dropdown */}
         <li className="group relative">
-          <div className="hover:text-fireRed focus:outline-none">
-            Produse
-          </div>
-          <ul className="absolute left-1/2 hidden w-48 -translate-x-1/2 space-y-2 rounded-lg bg-zinc-900 px-2 pt-2 text-center text-base group-hover:block">
+          <div className="hover:text-fireRed focus:outline-none">Produse</div>
+
+          {/* Dropdown */}
+          <ul
+            className={`absolute left-1/2 w-48 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-2 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100`}
+          >
             <li>
               <Link
                 href="/produse/salcie"
@@ -89,10 +90,8 @@ export default function Navbar() {
 
         {/* Locatii Drowpdown */}
         {/* <li className="group relative">
-          <div className="hover:text-fireRed focus:outline-none">
-            Locatii
-          </div>
-          <ul className="absolute left-1/2 hidden w-auto -translate-x-1/2 space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base group-hover:block">
+          <div className="hover:text-fireRed focus:outline-none">Locatii</div>
+          <ul className="invisible absolute left-1/2 w-auto -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
             <li>
               <Link
                 href="/locatii/Galati"
@@ -120,18 +119,16 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
-        </li> */}
+        </li>*/}
 
         <a href="/#faq-accordion" className="hover:text-fireRed">
           Informații
-        </a>
+        </a> 
 
         {/* Articole Drowpdown */}
         {/* <li className="group relative">
-          <div  className="hover:text-fireRed focus:outline-none">
-            Articole
-          </div>
-          <ul className="absolute left-1/2 hidden w-24 -translate-x-1/2 space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base group-hover:block">
+          <div className="hover:text-fireRed focus:outline-none">Articole</div>
+          <ul className="invisible absolute left-1/2 w-24 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
             <li>
               <Link
                 href="/articole/1"
@@ -168,23 +165,35 @@ export default function Navbar() {
       {/* Mobile menu */}
       <nav
         ref={menuRef}
-        className={`${
-          isOpen ? "block" : "hidden"
+        className={`transform transition-transform duration-300 ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
         } fixed left-0 top-32 z-20 h-screen w-52 bg-zinc-900/95 lg:hidden`}
       >
         <ul className="flex flex-col items-center space-y-4 p-4 text-xl">
           {/* Produse Dropdown */}
-          <li className="relative w-full text-center">
+          <li className="w-full text-center">
             <button
-              onClick={() => handleDropdownToggle("produse")}
+              onClick={(e) => {
+                e.preventDefault();
+                handleDropdownToggle("produse");
+              }}
               className="w-full hover:text-fireRed focus:outline-none"
             >
               Produse
             </button>
-            {openDropdown === "produse" && (
-              <ul className="w-full space-y-2 bg-inherit p-2 text-center text-base">
+
+            {/* Dropdown */}
+            <div
+              className={`overflow-hidden transition-all duration-200 ease-in-out ${
+                openDropdown === "produse"
+                  ? "max-h-40 opacity-100"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <ul className="w-full space-y-2 p-2 text-center text-base">
                 <li>
                   <Link
+                  onClick={navToggle}
                     href="/produse/salcie"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -193,6 +202,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
+                  onClick={navToggle}
                     href="/produse/fag"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -201,6 +211,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
+                  onClick={navToggle}
                     href="/produse/scandura"
                     className="block py-1 text-sm hover:text-fireRed"
                   >
@@ -208,20 +219,32 @@ export default function Navbar() {
                   </Link>
                 </li>
               </ul>
-            )}
+            </div>
           </li>
           {/* Locatii Dropdown */}
-          {/* <li className="relative w-full text-center">
+          {/* <li className="w-full text-center">
             <button
-              onClick={() => handleDropdownToggle("locatii")}
+              onClick={(e) => {
+                e.preventDefault();
+                handleDropdownToggle("locatii");
+              }}
               className="w-full hover:text-fireRed focus:outline-none"
             >
               Locatii
-            </button>
-            {openDropdown === "locatii" && (
-              <ul className="w-full space-y-2 bg-inherit p-2 text-center text-base">
+            </button> */}
+
+            {/* Dropdown */}
+            {/* <div
+              className={`overflow-hidden transition-all duration-200 ease-in-out ${
+                openDropdown === "locatii"
+                  ? "max-h-40 opacity-100"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <ul className="w-full space-y-2 p-2 text-center text-base">
                 <li>
                   <Link
+                  onClick={navToggle}
                     href="/locatii/Galati"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -230,6 +253,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
+                  onClick={navToggle}
                     href="/locatii/Braila"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -238,6 +262,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
+                  onClick={navToggle}
                     href="/locatii/Tulcea"
                     className="block py-1 text-sm hover:text-fireRed"
                   >
@@ -245,7 +270,7 @@ export default function Navbar() {
                   </Link>
                 </li>
               </ul>
-            )}
+            </div>
           </li> */}
           {/* Articole Dropdown */}
           {/* <li className="relative w-full text-center">
@@ -286,13 +311,13 @@ export default function Navbar() {
           </li> */}
           {/* Informații Link */}
           <li onClick={() => handleDropdownToggle(null)}>
-            <Link href="/#faq-accordion" className="hover:text-fireRed">
+            <Link onClick={navToggle} href="/#faq-accordion" className="hover:text-fireRed">
               Informații
             </Link>
           </li>
           {/* Contact link */}
-          <li onClick={() => handleDropdownToggle(null)}>
-            <Link href="/contact" className="hover:text-fireRed">
+          <li onClick={() => handleDropdownToggle(null)} >
+            <Link onClick={navToggle} href="/contact#contact-header" className="hover:text-fireRed">
               Contact
             </Link>
           </li>
