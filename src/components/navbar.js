@@ -89,8 +89,8 @@ export default function Navbar() {
         </li>
 
         {/* Locatii Drowpdown */}
-        {/* <li className="group relative">
-          <div className="hover:text-fireRed focus:outline-none">Locatii</div>
+        <li className="group relative">
+          <div className="hover:text-fireRed focus:outline-none">Locații</div>
           <ul className="invisible absolute left-1/2 w-auto -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
             <li>
               <Link
@@ -119,7 +119,7 @@ export default function Navbar() {
               </Link>
             </li>
           </ul>
-        </li>*/}
+        </li>
 
         <a href="/#faq-accordion" className="hover:text-fireRed">
           Informații
@@ -222,7 +222,7 @@ export default function Navbar() {
             </div>
           </li>
           {/* Locatii Dropdown */}
-          {/* <li className="w-full text-center">
+          <li className="w-full text-center">
             <button
               onClick={(e) => {
                 e.preventDefault();
@@ -230,11 +230,11 @@ export default function Navbar() {
               }}
               className="w-full hover:text-fireRed focus:outline-none"
             >
-              Locatii
-            </button> */}
+              Locații
+            </button>
 
             {/* Dropdown */}
-            {/* <div
+            <div
               className={`overflow-hidden transition-all duration-200 ease-in-out ${
                 openDropdown === "locatii"
                   ? "max-h-40 opacity-100"
@@ -271,7 +271,7 @@ export default function Navbar() {
                 </li>
               </ul>
             </div>
-          </li> */}
+          </li>
           {/* Articole Dropdown */}
           {/* <li className="relative w-full text-center">
             <button
