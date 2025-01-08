@@ -56,9 +56,7 @@ export default function Navbar() {
           <div className="hover:text-fireRed focus:outline-none">Produse</div>
 
           {/* Dropdown */}
-          <ul
-            className={`absolute left-1/2 w-48 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-2 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:translate-y-0 group-hover:opacity-100`}
-          >
+          <ul className="invisible absolute left-1/2 w-32 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
             <li>
               <Link
                 href="/produse/salcie"
@@ -123,40 +121,82 @@ export default function Navbar() {
 
         <a href="/#faq-accordion" className="hover:text-fireRed">
           Informații
-        </a> 
+        </a>
 
-        {/* Articole Drowpdown */}
-        {/* <li className="group relative">
-          <div className="hover:text-fireRed focus:outline-none">Articole</div>
-          <ul className="invisible absolute left-1/2 w-24 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+        {/* Sfaturi Drowpdown */}
+        <li className="group relative">
+          <div className="hover:text-fireRed focus:outline-none">Sfaturi</div>
+          <ul className="invisible absolute left-1/2 w-48 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
             <li>
               <Link
-                href="/articole/1"
+                href="/articole/ghid-alegere-lemne"
                 className="block pt-1 hover:text-fireRed"
               >
-                Articol 1
+                Cum alegem lemne
               </Link>
             </li>
             <div className="my-2 h-px bg-white opacity-50"></div>
             <li>
               <Link
-                href="/articole/2"
+                href="/articole/cum-depozitam-lemnele"
                 className="block pt-1 hover:text-fireRed"
               >
-                Articol 2
+                Cum depozitam lemnele
               </Link>
             </li>
             <div className="my-2 h-px bg-white opacity-50"></div>
             <li>
               <Link
-                href="/articole/3"
+                href="/articole/cat-lemn-trebuie-sa-cumpar"
                 className="block py-1 hover:text-fireRed"
               >
-                Articol 3
+                Cat lemn trebuie sa cumpar
+              </Link>
+            </li>
+            <div className="my-2 h-px bg-white opacity-50"></div>
+            <li>
+              <Link
+                href="/articole/aprinderea-mentinerea-focului"
+                className="block py-1 hover:text-fireRed"
+              >
+                Despre aprinderea si mentinerea focului
+              </Link>
+            </li>
+            <div className="my-2 h-px bg-white opacity-50"></div>
+            <li>
+              <Link
+                href="/articole/cum-sa-eviti-lemnul-de-calitate-slaba"
+                className="block py-1 hover:text-fireRed"
+              >
+                Cum sa eviti lemnul de calitate slaba
               </Link>
             </li>
           </ul>
-        </li> */}
+        </li>
+
+        {/* Articole Drowpdown */}
+        <li className="group relative">
+          <div className="hover:text-fireRed focus:outline-none">Articole</div>
+          <ul className="invisible absolute left-1/2 w-48 -translate-x-1/2 translate-y-[-10px] space-y-2 rounded-lg bg-zinc-900 px-4 pt-2 text-center text-base opacity-0 transition-all duration-300 ease-in-out group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+            <li>
+              <Link
+                href="/articole/sustenabilitate-si-ecologie"
+                className="block pt-1 hover:text-fireRed"
+              >
+                Sustenabilitate si ecologie
+              </Link>
+            </li>
+            <div className="my-2 h-px bg-white opacity-50"></div>
+            <li>
+              <Link
+                href="/articole/istoria-lemnului-de-foc"
+                className="block pt-1 hover:text-fireRed"
+              >
+                Istoria lemnului de foc
+              </Link>
+            </li>
+          </ul>
+        </li>
 
         <Link href="/contact" className="hover:text-fireRed">
           Contact
@@ -193,7 +233,7 @@ export default function Navbar() {
               <ul className="w-full space-y-2 p-2 text-center text-base">
                 <li>
                   <Link
-                  onClick={navToggle}
+                    onClick={navToggle}
                     href="/produse/salcie"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -202,7 +242,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                  onClick={navToggle}
+                    onClick={navToggle}
                     href="/produse/fag"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -211,7 +251,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                  onClick={navToggle}
+                    onClick={navToggle}
                     href="/produse/scandura"
                     className="block py-1 text-sm hover:text-fireRed"
                   >
@@ -244,7 +284,7 @@ export default function Navbar() {
               <ul className="w-full space-y-2 p-2 text-center text-base">
                 <li>
                   <Link
-                  onClick={navToggle}
+                    onClick={navToggle}
                     href="/locatii/Galati"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -253,7 +293,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                  onClick={navToggle}
+                    onClick={navToggle}
                     href="/locatii/Braila"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
@@ -262,7 +302,7 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                  onClick={navToggle}
+                    onClick={navToggle}
                     href="/locatii/Tulcea"
                     className="block py-1 text-sm hover:text-fireRed"
                   >
@@ -272,52 +312,136 @@ export default function Navbar() {
               </ul>
             </div>
           </li>
-          {/* Articole Dropdown */}
-          {/* <li className="relative w-full text-center">
+          {/* Sfaturi Dropdown */}
+          <li className="w-full text-center">
             <button
-              onClick={() => handleDropdownToggle("articole")}
+              onClick={(e) => {
+                e.preventDefault();
+                handleDropdownToggle("sfaturi");
+              }}
+              className="w-full hover:text-fireRed focus:outline-none"
+            >
+              Sfaturi
+            </button>
+
+            {/* Dropdown */}
+            <div
+              className={`overflow-hidden transition-all duration-200 ease-in-out ${
+                openDropdown === "sfaturi"
+                  ? "max-h-64 opacity-100"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <ul className="w-full space-y-2 p-2 text-center text-base">
+                <li>
+                  <Link
+                    onClick={navToggle}
+                    href="/articole/ghid-alegere-lemne"
+                    className="block pt-1 text-sm hover:text-fireRed"
+                  >
+                    Cum alegem lemne
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={navToggle}
+                    href="/articole/cum-depozitam-lemnele"
+                    className="block pt-1 text-sm hover:text-fireRed"
+                  >
+                    Cum depozitam lemnele
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={navToggle}
+                    href="/articole/cat-lemn-trebuie-sa-cumpar"
+                    className="block py-1 text-sm hover:text-fireRed"
+                  >
+                    Cat lemn trebuie sa cumpar
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={navToggle}
+                    href="/articole/aprinderea-mentinerea-focului"
+                    className="block py-1 text-sm hover:text-fireRed"
+                  >
+                    Despre aprinderea si mentinerea focului
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={navToggle}
+                    href="/articole/cum-sa-eviti-lemnul-de-calitate-slaba"
+                    className="block py-1 text-sm hover:text-fireRed"
+                  >
+                    Cum sa eviti lemnul de calitate slaba
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          {/* Articole Dropdown */}
+          <li className="w-full text-center">
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                handleDropdownToggle("articole");
+              }}
               className="w-full hover:text-fireRed focus:outline-none"
             >
               Articole
             </button>
-            {openDropdown === "articole" && (
-              <ul className="w-full space-y-2 bg-inherit p-2 text-center text-base">
+
+            {/* Dropdown */}
+            <div
+              className={`overflow-hidden transition-all duration-200 ease-in-out ${
+                openDropdown === "articole"
+                  ? "max-h-64 opacity-100"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <ul className="w-full space-y-2 p-2 text-center text-base">
                 <li>
                   <Link
-                    href="/articole/1"
+                    onClick={navToggle}
+                    href="/articole/sustenabilitate-si-ecologie"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
-                    Articol 1
+                    Sustenabilitate si ecologie
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/articole/2"
+                    onClick={navToggle}
+                    href="/articole/istoria-lemnului-de-foc"
                     className="block pt-1 text-sm hover:text-fireRed"
                   >
-                    Articol 2
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/articole/3"
-                    className="block py-1 text-sm hover:text-fireRed"
-                  >
-                    Articol 3
+                    Istoria lemnului de foc
                   </Link>
                 </li>
               </ul>
-            )}
-          </li> */}
+            </div>
+          </li>
+
           {/* Informații Link */}
           <li onClick={() => handleDropdownToggle(null)}>
-            <Link onClick={navToggle} href="/#faq-accordion" className="hover:text-fireRed">
+            <Link
+              onClick={navToggle}
+              href="/#faq-accordion"
+              className="hover:text-fireRed"
+            >
               Informații
             </Link>
           </li>
           {/* Contact link */}
-          <li onClick={() => handleDropdownToggle(null)} >
-            <Link onClick={navToggle} href="/contact#contact-header" className="hover:text-fireRed">
+          <li onClick={() => handleDropdownToggle(null)}>
+            <Link
+              onClick={navToggle}
+              href="/contact#contact-header"
+              className="hover:text-fireRed"
+            >
               Contact
             </Link>
           </li>
