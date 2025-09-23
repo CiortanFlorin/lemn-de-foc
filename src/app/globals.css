@@ -8,6 +8,8 @@ html {
 
 .hamburger-line {
   transition: transform 0.25s ease;
+  background-color: white;
+  forced-color-adjust: none; 
 }
 
 .open .hamburger-line:first-child {
@@ -22,7 +24,3 @@ html {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-.brave-dark-mode-bypass {
-  color-scheme: light;
-  background: white !important;
-}
