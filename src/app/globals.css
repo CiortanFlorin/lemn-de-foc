@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.hamburger {
+  color-scheme: only light;
+  background: transparent !important;
+}
+
 .hamburger-line {
   transition: transform 0.25s ease;
   background-image: linear-gradient(white, white);
