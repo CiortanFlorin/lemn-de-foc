@@ -45,9 +45,9 @@ export default function Navbar() {
         className={`hamburger z-30 flex flex-col items-center justify-center space-y-1 focus:outline-none lg:hidden ${isOpen ? "open" : ""}`}
         onClick={navToggle}
       >
-        <span className="hamburger-line h-[3px] w-6 bg-white transition-transform duration-300 brave-dark-mode-bypass [forced-color-adjust:none]"></span>
-        <span className="hamburger-line h-[3px] w-6 bg-white transition-transform duration-300 brave-dark-mode-bypass [forced-color-adjust:none]"></span>
-        <span className="hamburger-line h-[3px] w-6 bg-white transition-transform duration-300 brave-dark-mode-bypass [forced-color-adjust:none]"></span>
+        <span className="hamburger-line h-[3px] w-6 transition-transform duration-300 brave-dark-mode-bypass [forced-color-adjust:none]"></span>
+        <span className="hamburger-line h-[3px] w-6 transition-transform duration-300 brave-dark-mode-bypass [forced-color-adjust:none]"></span>
+        <span className="hamburger-line h-[3px] w-6 transition-transform duration-300 brave-dark-mode-bypass [forced-color-adjust:none]"></span>
       </button>
       {/* Desktop menu */}
       <ul className="hidden items-center justify-center space-x-4 pb-6 text-xl lg:flex lg:pb-0">
