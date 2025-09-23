@@ -21,3 +21,8 @@ html {
 .open .hamburger-line:last-child {
   transform: rotate(-45deg) translate(5px, -5px);
 }
+
+.brave-dark-mode-bypass {
+  color-scheme: light;
+  background: white !important;
+}
