@@ -71,13 +71,13 @@ const localBusinessJsonLd = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ro" className={`${rubik.variable} ${rubikBold.variable}`}>
-      <body className="font-rubik bg-fireBlack text-white">
+      <body className="flex min-h-screen flex-col font-rubik bg-fireBlack text-white">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
         />
         <Header></Header>
-        {children}
+        <main className="flex-1">{children}</main>
         <Footer></Footer>
         <Analytics mode={'production'} />
       </body>

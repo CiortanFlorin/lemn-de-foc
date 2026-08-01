@@ -7,7 +7,7 @@ export default function Contact() {
       {/* Contact Container */}
       <div className="mx-auto mb-10 mt-5 flex flex-col items-center space-y-8 lg:flex-row lg:justify-center lg:space-x-8 lg:space-y-0 lg:px-10">
         {/* Contact 1 */}
-        <div className="flex max-h-48 w-3/4 max-w-lg flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black lg:max-w-md">
+        <div className="flex min-h-48 w-3/4 max-w-lg flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black lg:max-w-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
