@@ -1,6 +1,9 @@
 export const metadata = {
   title: "Impactul Lemnului de Foc Asupra Mediului | Sustenabilitate și Ecologie",
-  description: "Explorează impactul utilizării lemnului de foc asupra mediului. Află cum poți alege soluții sustenabile și prietenoase cu natura pentru încălzirea locuinței tale."
+  description: "Explorează impactul utilizării lemnului de foc asupra mediului. Află cum poți alege soluții sustenabile și prietenoase cu natura pentru încălzirea locuinței tale.",
+  alternates: {
+    canonical: "/articole/sustenabilitate-si-ecologie",
+  },
 };
 
 export default function Page() {

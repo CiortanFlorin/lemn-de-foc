@@ -14,7 +14,7 @@ export default function ProductPageTemplate({
   return (
     <div className="lg:min-h-screen">
       <div className="lg:mt-50 mb-10 mt-48 flex flex-col lg:mx-auto lg:max-w-7xl lg:flex-row lg:content-start lg:space-x-10 lg:pl-10">
-        <ImageGallery images={images}></ImageGallery>
+        <ImageGallery images={images} title={title}></ImageGallery>
         {/* Text Container */}
         <div className="mx-auto mt-4 flex w-5/6 flex-col items-center rounded-2xl bg-zinc-900 p-5 text-center md:w-4/6 lg:mt-32 lg:w-full lg:items-start lg:justify-start lg:bg-inherit lg:text-left">
           {/* Title Container */}
@@ -43,15 +43,15 @@ export default function ProductPageTemplate({
       {/* Description container */}
       <div className="">
         <div className="items-left mx-auto flex flex-col px-10 text-left md:w-4/6 lg:mt-32 lg:w-full lg:max-w-7xl lg:px-16">
-          <h1 className="font-rubik-bold text-2xl lg:text-3xl">
+          <h2 className="font-rubik-bold text-2xl lg:text-3xl">
             {advantageTitle}
-          </h1>
+          </h2>
           <p className="w-xl mb-2 text-lg md:w-full lg:text-2xl">
             {advantageDescription}
           </p>
-          <h1 className="font-rubik-bold text-2xl lg:text-3xl">
+          <h2 className="font-rubik-bold text-2xl lg:text-3xl">
             Realizarea transportului
-          </h1>
+          </h2>
           <p className="w-xl mb-2 text-lg md:w-full lg:text-2xl">
             Transportul este calculat în funcție de locația clientului, iar
             livrările noastre acoperă județele Galați, Brăila și Tulcea.
@@ -59,9 +59,9 @@ export default function ProductPageTemplate({
             lucrătoare, pentru a primi lemnul de foc rapid și eficient, direct
             la ușa ta.
           </p>
-          <h1 className="font-rubik-bold text-2xl lg:text-3xl">
+          <h2 className="font-rubik-bold text-2xl lg:text-3xl">
             Metode de plata
-          </h1>
+          </h2>
           <p className="w-xl mb-10 text-lg md:w-full lg:text-2xl">
             Clienții pot achita lemnul de foc folosind metoda de plată cea mai
             convenabilă pentru ei: numerar la livrare, card bancar sau tichete

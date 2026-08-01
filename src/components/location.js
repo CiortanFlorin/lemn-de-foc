@@ -4,9 +4,9 @@ export default function Location() {
       {/* Location header */}
 
       <div className="text-center">
-        <h1 className="mt-10 inline-block max-w-lg font-rubik-bold text-3xl tracking-wide md:text-4xl">
+        <h2 className="mt-10 inline-block max-w-lg font-rubik-bold text-3xl tracking-wide md:text-4xl">
           Locația noastră
-        </h1>
+        </h2>
       </div>
       <section id="location">
         <div className="mt-10 flex justify-center">

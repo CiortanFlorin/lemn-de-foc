@@ -1,6 +1,9 @@
 export const metadata = {
   title: "Cele Mai Bune Practici pentru Aprinderea și Menținerea Focului | Lemne de Foc Eficiente",
-  description: "Găsește cele mai eficiente metode pentru aprinderea și menținerea focului. Maximizează arderea lemnelor de foc și asigură o încălzire constantă și durabilă în casă."
+  description: "Găsește cele mai eficiente metode pentru aprinderea și menținerea focului. Maximizează arderea lemnelor de foc și asigură o încălzire constantă și durabilă în casă.",
+  alternates: {
+    canonical: "/articole/aprinderea-mentinerea-focului",
+  },
 };
 
 export default function Page() {

@@ -1,6 +1,9 @@
 export const metadata = {
   title: "Cum să Identifici Lemnul de Foc de Calitate Slabă | Evită Achizițiile Greșite",
-  description: "Află cum să recunoști lemnul de foc de calitate slabă și să eviți achizițiile necorespunzătoare. Ghidul nostru te ajută să faci o alegere inteligentă pentru lemnele de foc."
+  description: "Află cum să recunoști lemnul de foc de calitate slabă și să eviți achizițiile necorespunzătoare. Ghidul nostru te ajută să faci o alegere inteligentă pentru lemnele de foc.",
+  alternates: {
+    canonical: "/articole/cum-sa-eviti-lemnul-de-calitate-slaba",
+  },
 };
 
 export default function Page() {

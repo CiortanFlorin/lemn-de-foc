@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Cum să Calculezi Cantitatea de Lemn de Foc pentru Iarnă | Economisește Lemnele de Foc",
-  description: "Învață cum să estimezi corect cantitatea de lemn de foc necesară pentru o iarnă întreagă. Evită lipsurile sau surplusurile și planifică eficient pentru un sezon rece confortabil."
+  description: "Învață cum să estimezi corect cantitatea de lemn de foc necesară pentru o iarnă întreagă. Evită lipsurile sau surplusurile și planifică eficient pentru un sezon rece confortabil.",
+  alternates: {
+    canonical: "/articole/cat-lemn-trebuie-sa-cumpar",
+  },
 };
 
 export default function Page() {

@@ -1,6 +1,9 @@
 export const metadata = {
   title: "Istoria Lemnului de Foc | De la Tradiție la Soluții Moderne de Încălzire",
-  description: "Descoperă evoluția utilizării lemnului de foc de-a lungul timpului. De la metodele tradiționale la soluțiile moderne, află cum s-a schimbat rolul lemnelor de foc în viața noastră."
+  description: "Descoperă evoluția utilizării lemnului de foc de-a lungul timpului. De la metodele tradiționale la soluțiile moderne, află cum s-a schimbat rolul lemnelor de foc în viața noastră.",
+  alternates: {
+    canonical: "/articole/istoria-lemnului-de-foc",
+  },
 };
 
 export default function Page() {

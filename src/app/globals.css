@@ -13,7 +13,7 @@ html {
 
 .hamburger-line {
   transition: transform 0.25s ease;
-  background-image: linear-gradient(white, white);
+  background-color: #f0f0f0;
   forced-color-adjust: none; 
 }
 

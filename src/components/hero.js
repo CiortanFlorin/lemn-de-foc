@@ -17,8 +17,8 @@ export default function Hero() {
               Lemn de Foc Premium pentru Confortul Tau
             </h1>
             <h2 className="2xl:max-w-xl mt-24 max-w-xl text-lg md:max-w-96">
-              Soluția ideală pentru iarnă. Oferim lemn de foc de calitate,
-              livrat rapid, gata de utilizare.
+              Soluția ideală pentru iarnă. Oferim lemn de foc tăiat și crăpat
+              de fag, plop și salcie, livrat rapid, gata de utilizare.
             </h2>
             <h3 className="font-rubik-bold text-lg">
               Prețuri incepand cu <span className="text-2xl">350 RON</span>

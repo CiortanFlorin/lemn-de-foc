@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Ghid Complet de Cumpărare Lemn de Foc | Cum Să Alegi Lemnele de Foc Potrivite",
-  description: "Descoperă cum să alegi cele mai bune lemne de foc pentru încălzire. Ghidul nostru complet te ajută să faci o alegere informată pentru a avea o iarnă călduroasă și eficientă."
+  description: "Descoperă cum să alegi cele mai bune lemne de foc pentru încălzire. Ghidul nostru complet te ajută să faci o alegere informată pentru a avea o iarnă călduroasă și eficientă.",
+  alternates: {
+    canonical: "/articole/ghid-alegere-lemne",
+  },
 };
 
 export default function Page() {
@@ -66,7 +69,8 @@ export default function Page() {
             soba sau șemineul tău. Lemnul prea mare poate fi dificil de manevrat
             și de aprins, în timp ce lemnul prea mic poate arde prea repede. În
             general, bucățile de 25-30 cm lungime sunt ideale pentru majoritatea
-            sobelor.
+            sobelor. De aceea, alege lemn de foc tăiat și crăpat la dimensiunea
+            potrivită, gata de folosit direct din prima zi.
           </p>
         </section>
         <section>

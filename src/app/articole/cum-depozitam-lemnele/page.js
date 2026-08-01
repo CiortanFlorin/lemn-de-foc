@@ -1,6 +1,9 @@
 export const metadata = {
   title: "Ghid de Depozitare Lemn de Foc | Păstrează Lemnele Uscate și Gata de Folosit",
-  description: "Află cele mai bune metode de depozitare a lemnului de foc. Păstrează lemnele uscate și pregătite pentru foc, maximizând eficiența arderii și reducând pierderile."
+  description: "Află cele mai bune metode de depozitare a lemnului de foc. Păstrează lemnele uscate și pregătite pentru foc, maximizând eficiența arderii și reducând pierderile.",
+  alternates: {
+    canonical: "/articole/cum-depozitam-lemnele",
+  },
 };
 
 export default function Page() {

@@ -1,9 +1,9 @@
 export default function Contact() {
   return (
     <div className="text-center md:min-h-[550px]">
-      <h1 className="mt-12 font-rubik-bold text-2xl md:text-3xl lg:mt-20">
+      <h2 className="mt-12 font-rubik-bold text-2xl md:text-3xl lg:mt-20">
         Contact
-      </h1>
+      </h2>
       {/* Contact Container */}
       <div className="mx-auto mb-10 mt-5 flex flex-col items-center space-y-8 lg:flex-row lg:justify-center lg:space-x-8 lg:space-y-0 lg:px-10">
         {/* Contact 1 */}
@@ -22,12 +22,9 @@ export default function Contact() {
               d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
             />
           </svg>
-          <h1 className="text-xl">Telefon:</h1>
+          <h3 className="text-xl">Telefon:</h3>
           <p className="text-lg">
             <a href="tel:+40751518502"> 0751518502</a>{" "}
-          </p>
-          <p className="text-lg">
-            <a href="tel:+40751518501"> 0751518501</a>{" "}
           </p>
         </div>
         {/* Contact 2 */}
@@ -47,7 +44,7 @@ export default function Contact() {
             />
           </svg>
 
-          <h1 className="text-xl">E-mail:</h1>
+          <h3 className="text-xl">E-mail:</h3>
           <p className="text-lg">viorelciortan2@gmail.com</p>
         </div>
         {/* Contact 3 */}
@@ -72,7 +69,7 @@ export default function Contact() {
             />
           </svg>
 
-          <h1 className="text-xl">Adresă:</h1>
+          <h3 className="text-xl">Adresă:</h3>
           <p className="text-lg">Galați, Calea Smardan nr. 2</p>
         </div>
       </div>
