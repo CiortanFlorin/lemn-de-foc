@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Requirements
+
+- **Node.js 24.x** (LTS) — pinned in `.nvmrc` and enforced via `engines` in `package.json` (`.npmrc` sets `engine-strict=true`, so `npm install` fails on any other major).
+- npm 11 or newer (ships with Node 24).
+
+With [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm):
+
+```bash
+nvm use
+```
+
 ## Getting Started
 
 First, run the development server:

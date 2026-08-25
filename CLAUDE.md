@@ -8,6 +8,8 @@ Marketing/e-commerce-lite website for "Lemn și Flăcări", a firewood seller de
 
 ## Commands
 
+Runs on **Node.js 24.x** (pinned in `.nvmrc`, enforced by `engines` + `engine-strict=true` in `.npmrc`).
+
 ```bash
 npm run dev     # start dev server (localhost:3000)
 npm run build   # production build
