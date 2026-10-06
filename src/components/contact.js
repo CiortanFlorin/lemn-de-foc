@@ -45,7 +45,7 @@ export default function Contact() {
           </svg>
 
           <h3 className="text-xl">E-mail:</h3>
-          <p className="text-lg">viorelciortan2@gmail.com</p>
+          <p className="text-lg">metal.lemn@yahoo.com</p>
         </div>
         {/* Contact 3 */}
         <div className="flex min-h-48 w-3/4 max-w-lg flex-col items-center justify-center space-y-2 rounded-2xl bg-zinc-900 p-5 shadow-xl shadow-black lg:max-w-md">
